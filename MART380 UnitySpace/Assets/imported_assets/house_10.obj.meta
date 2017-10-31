@@ -1,0 +1,937 @@
+fileFormatVersion: 2
+guid: 303e186f5b55eac4a9dd0fd617516acf
+timeCreated: 1509120222
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: balcony
+    100002: barrels_001
+    100004: ceiling
+    100006: ceiling_001
+    100008: ceiling_002
+    100010: ceiling_003
+    100012: ceiling_004
+    100014: ceiling_005
+    100016: ceiling_006
+    100018: ceiling_007
+    100020: ceiling_008
+    100022: ceiling_009
+    100024: ceiling_010
+    100026: ceiling_011
+    100028: ceiling_012
+    100030: ceiling_013
+    100032: ceiling_014
+    100034: ceiling_015
+    100036: ceiling_016
+    100038: chimney_002
+    100040: cover_roof_001
+    100042: cover_sides_001
+    100044: door_frame
+    100046: door_frame_001
+    100048: door_frame_002
+    100050: door_frame_003
+    100052: door_frame_004
+    100054: door_frame_005
+    100056: door_frame_006
+    100058: door_frame_007
+    100060: door_frame_008
+    100062: door_frame_009
+    100064: door_frame_010
+    100066: door_frame_011
+    100068: door_frame_012
+    100070: door_frame_013
+    100072: door_garage
+    100074: door_wing
+    100076: door_wing_001
+    100078: door_wing_002
+    100080: door_wing_003
+    100082: door_wing_004
+    100084: door_wing_005
+    100086: door_wing_006
+    100088: door_wing_007
+    100090: door_wing_008
+    100092: door_wing_009
+    100094: door_wing_010
+    100096: door_wing_011
+    100098: door_wing_012
+    100100: door_wing_013
+    100102: floor
+    100104: floor_003
+    100106: floor_004
+    100108: floor_005
+    100110: floor_006
+    100112: floor_007
+    100114: floor_008
+    100116: floor_009
+    100118: floor_010
+    100120: floor_011
+    100122: floor_012
+    100124: floor_013
+    100126: floor_014
+    100128: floor_015
+    100130: floor_016
+    100132: floor_017
+    100134: floor_018
+    100136: flower_pot
+    100138: grass_platform
+    100140: ground_around_house
+    100142: gutter_001
+    100144: //RootNode
+    100146: roof
+    100148: roof_001
+    100150: stairs_000
+    100152: stairs_002
+    100154: terrace
+    100156: wall_exterior
+    100158: walls
+    100160: walls_001
+    100162: walls_002
+    100164: walls_003
+    100166: window_011
+    100168: window_roof
+    100170: wood_balls
+    400000: balcony
+    400002: barrels_001
+    400004: ceiling
+    400006: ceiling_001
+    400008: ceiling_002
+    400010: ceiling_003
+    400012: ceiling_004
+    400014: ceiling_005
+    400016: ceiling_006
+    400018: ceiling_007
+    400020: ceiling_008
+    400022: ceiling_009
+    400024: ceiling_010
+    400026: ceiling_011
+    400028: ceiling_012
+    400030: ceiling_013
+    400032: ceiling_014
+    400034: ceiling_015
+    400036: ceiling_016
+    400038: chimney_002
+    400040: cover_roof_001
+    400042: cover_sides_001
+    400044: door_frame
+    400046: door_frame_001
+    400048: door_frame_002
+    400050: door_frame_003
+    400052: door_frame_004
+    400054: door_frame_005
+    400056: door_frame_006
+    400058: door_frame_007
+    400060: door_frame_008
+    400062: door_frame_009
+    400064: door_frame_010
+    400066: door_frame_011
+    400068: door_frame_012
+    400070: door_frame_013
+    400072: door_garage
+    400074: door_wing
+    400076: door_wing_001
+    400078: door_wing_002
+    400080: door_wing_003
+    400082: door_wing_004
+    400084: door_wing_005
+    400086: door_wing_006
+    400088: door_wing_007
+    400090: door_wing_008
+    400092: door_wing_009
+    400094: door_wing_010
+    400096: door_wing_011
+    400098: door_wing_012
+    400100: door_wing_013
+    400102: floor
+    400104: floor_003
+    400106: floor_004
+    400108: floor_005
+    400110: floor_006
+    400112: floor_007
+    400114: floor_008
+    400116: floor_009
+    400118: floor_010
+    400120: floor_011
+    400122: floor_012
+    400124: floor_013
+    400126: floor_014
+    400128: floor_015
+    400130: floor_016
+    400132: floor_017
+    400134: floor_018
+    400136: flower_pot
+    400138: grass_platform
+    400140: ground_around_house
+    400142: gutter_001
+    400144: //RootNode
+    400146: roof
+    400148: roof_001
+    400150: stairs_000
+    400152: stairs_002
+    400154: terrace
+    400156: wall_exterior
+    400158: walls
+    400160: walls_001
+    400162: walls_002
+    400164: walls_003
+    400166: window_011
+    400168: window_roof
+    400170: wood_balls
+    2300000: balcony
+    2300002: barrels_001
+    2300004: ceiling
+    2300006: ceiling_001
+    2300008: ceiling_002
+    2300010: ceiling_003
+    2300012: ceiling_004
+    2300014: ceiling_005
+    2300016: ceiling_006
+    2300018: ceiling_007
+    2300020: ceiling_008
+    2300022: ceiling_009
+    2300024: ceiling_010
+    2300026: ceiling_011
+    2300028: ceiling_012
+    2300030: ceiling_013
+    2300032: ceiling_014
+    2300034: ceiling_015
+    2300036: ceiling_016
+    2300038: chimney_002
+    2300040: cover_roof_001
+    2300042: cover_sides_001
+    2300044: door_frame
+    2300046: door_frame_001
+    2300048: door_frame_002
+    2300050: door_frame_003
+    2300052: door_frame_004
+    2300054: door_frame_005
+    2300056: door_frame_006
+    2300058: door_frame_007
+    2300060: door_frame_008
+    2300062: door_frame_009
+    2300064: door_frame_010
+    2300066: door_frame_011
+    2300068: door_frame_012
+    2300070: door_frame_013
+    2300072: door_garage
+    2300074: door_wing
+    2300076: door_wing_001
+    2300078: door_wing_002
+    2300080: door_wing_003
+    2300082: door_wing_004
+    2300084: door_wing_005
+    2300086: door_wing_006
+    2300088: door_wing_007
+    2300090: door_wing_008
+    2300092: door_wing_009
+    2300094: door_wing_010
+    2300096: door_wing_011
+    2300098: door_wing_012
+    2300100: door_wing_013
+    2300102: floor
+    2300104: floor_003
+    2300106: floor_004
+    2300108: floor_005
+    2300110: floor_006
+    2300112: floor_007
+    2300114: floor_008
+    2300116: floor_009
+    2300118: floor_010
+    2300120: floor_011
+    2300122: floor_012
+    2300124: floor_013
+    2300126: floor_014
+    2300128: floor_015
+    2300130: floor_016
+    2300132: floor_017
+    2300134: floor_018
+    2300136: flower_pot
+    2300138: grass_platform
+    2300140: ground_around_house
+    2300142: gutter_001
+    2300144: roof
+    2300146: roof_001
+    2300148: stairs_000
+    2300150: stairs_002
+    2300152: terrace
+    2300154: wall_exterior
+    2300156: walls
+    2300158: walls_001
+    2300160: walls_002
+    2300162: walls_003
+    2300164: window_011
+    2300166: window_roof
+    2300168: wood_balls
+    3300000: balcony
+    3300002: barrels_001
+    3300004: ceiling
+    3300006: ceiling_001
+    3300008: ceiling_002
+    3300010: ceiling_003
+    3300012: ceiling_004
+    3300014: ceiling_005
+    3300016: ceiling_006
+    3300018: ceiling_007
+    3300020: ceiling_008
+    3300022: ceiling_009
+    3300024: ceiling_010
+    3300026: ceiling_011
+    3300028: ceiling_012
+    3300030: ceiling_013
+    3300032: ceiling_014
+    3300034: ceiling_015
+    3300036: ceiling_016
+    3300038: chimney_002
+    3300040: cover_roof_001
+    3300042: cover_sides_001
+    3300044: door_frame
+    3300046: door_frame_001
+    3300048: door_frame_002
+    3300050: door_frame_003
+    3300052: door_frame_004
+    3300054: door_frame_005
+    3300056: door_frame_006
+    3300058: door_frame_007
+    3300060: door_frame_008
+    3300062: door_frame_009
+    3300064: door_frame_010
+    3300066: door_frame_011
+    3300068: door_frame_012
+    3300070: door_frame_013
+    3300072: door_garage
+    3300074: door_wing
+    3300076: door_wing_001
+    3300078: door_wing_002
+    3300080: door_wing_003
+    3300082: door_wing_004
+    3300084: door_wing_005
+    3300086: door_wing_006
+    3300088: door_wing_007
+    3300090: door_wing_008
+    3300092: door_wing_009
+    3300094: door_wing_010
+    3300096: door_wing_011
+    3300098: door_wing_012
+    3300100: door_wing_013
+    3300102: floor
+    3300104: floor_003
+    3300106: floor_004
+    3300108: floor_005
+    3300110: floor_006
+    3300112: floor_007
+    3300114: floor_008
+    3300116: floor_009
+    3300118: floor_010
+    3300120: floor_011
+    3300122: floor_012
+    3300124: floor_013
+    3300126: floor_014
+    3300128: floor_015
+    3300130: floor_016
+    3300132: floor_017
+    3300134: floor_018
+    3300136: flower_pot
+    3300138: grass_platform
+    3300140: ground_around_house
+    3300142: gutter_001
+    3300144: roof
+    3300146: roof_001
+    3300148: stairs_000
+    3300150: stairs_002
+    3300152: terrace
+    3300154: wall_exterior
+    3300156: walls
+    3300158: walls_001
+    3300160: walls_002
+    3300162: walls_003
+    3300164: window_011
+    3300166: window_roof
+    3300168: wood_balls
+    4300000: balcony
+    4300002: barrels_001
+    4300004: ceiling
+    4300006: ceiling_001
+    4300008: ceiling_002
+    4300010: ceiling_003
+    4300012: ceiling_004
+    4300014: ceiling_005
+    4300016: ceiling_006
+    4300018: ceiling_007
+    4300020: ceiling_008
+    4300022: ceiling_009
+    4300024: ceiling_010
+    4300026: ceiling_011
+    4300028: ceiling_012
+    4300030: ceiling_013
+    4300032: ceiling_014
+    4300034: ceiling_015
+    4300036: ceiling_016
+    4300038: chimney_002
+    4300040: cover_roof_001
+    4300042: cover_sides_001
+    4300044: door_frame
+    4300046: door_frame_001
+    4300048: door_frame_002
+    4300050: door_frame_003
+    4300052: door_frame_004
+    4300054: door_frame_005
+    4300056: door_frame_006
+    4300058: door_frame_007
+    4300060: door_frame_008
+    4300062: door_frame_009
+    4300064: door_frame_010
+    4300066: door_frame_011
+    4300068: door_frame_012
+    4300070: door_frame_013
+    4300072: door_garage
+    4300074: door_wing
+    4300076: door_wing_001
+    4300078: door_wing_002
+    4300080: door_wing_003
+    4300082: door_wing_004
+    4300084: door_wing_005
+    4300086: door_wing_006
+    4300088: door_wing_007
+    4300090: door_wing_008
+    4300092: door_wing_009
+    4300094: door_wing_010
+    4300096: door_wing_011
+    4300098: door_wing_012
+    4300100: door_wing_013
+    4300102: floor
+    4300104: floor_003
+    4300106: floor_004
+    4300108: floor_005
+    4300110: floor_006
+    4300112: floor_007
+    4300114: floor_008
+    4300116: floor_009
+    4300118: floor_010
+    4300120: floor_011
+    4300122: floor_012
+    4300124: floor_013
+    4300126: floor_014
+    4300128: floor_015
+    4300130: floor_016
+    4300132: floor_017
+    4300134: floor_018
+    4300136: flower_pot
+    4300138: grass_platform
+    4300140: ground_around_house
+    4300142: gutter_001
+    4300144: roof
+    4300146: roof_001
+    4300148: stairs_000
+    4300150: stairs_002
+    4300152: terrace
+    4300154: wall_exterior
+    4300156: walls
+    4300158: walls_001
+    4300160: walls_002
+    4300162: walls_003
+    4300164: window_011
+    4300166: window_roof
+    4300168: wood_balls
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: balconyMat
+    second: {fileID: 2100000, guid: d3d0e10fe68d3474a95b5f1b50bb83c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: barrels_001Mat
+    second: {fileID: 2100000, guid: efd2cedfedd4b1a48b1305b52f59dfae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceilingMat
+    second: {fileID: 2100000, guid: fe9ea9d5e1b4a10419d33aac338682db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling_001Mat
+    second: {fileID: 2100000, guid: b2effa9fad2457841983158ff71f2025, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling_002Mat
+    second: {fileID: 2100000, guid: 6bbfff35c3913734988efc68e66998c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling_003Mat
+    second: {fileID: 2100000, guid: 9c41c982fb4c402419030c534beb4ff5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling_004Mat
+    second: {fileID: 2100000, guid: 1ba1c8fb052200b4b8918f665c243061, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling_005Mat
+    second: {fileID: 2100000, guid: 2545b78b0f4f9d34992b0ffbfdb5abae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling_006Mat
+    second: {fileID: 2100000, guid: 483a9743d1517814a8b15bae9b26a8fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling_007Mat
+    second: {fileID: 2100000, guid: b3c29cbf99f9b2a40a585fbb45794f06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling_008Mat
+    second: {fileID: 2100000, guid: 15bbadb6090bde84a8829be17957fc58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling_009Mat
+    second: {fileID: 2100000, guid: ba520343f3dc1aa4880e884c5de7507a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling_010Mat
+    second: {fileID: 2100000, guid: 76008352b40f9c8479b89c2c2ba9c103, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling_011Mat
+    second: {fileID: 2100000, guid: 89317261708a9c84bbaf0da09beee986, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling_012Mat
+    second: {fileID: 2100000, guid: 85b1f8d9674d23c44ab3adc9a670c428, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling_013Mat
+    second: {fileID: 2100000, guid: f24ba5a512b9a0a4282f12d10c618784, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling_014Mat
+    second: {fileID: 2100000, guid: aad475cee312fea41be0afa2decc0866, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling_015Mat
+    second: {fileID: 2100000, guid: 61c19364ad6a7604da9fa5ac0b49d58e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling_016Mat
+    second: {fileID: 2100000, guid: 34b3c4a52b7b04a49a36cbc2c5406165, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chimney_002Mat
+    second: {fileID: 2100000, guid: 3b452a72e1e2b644b8e3ab44d3b2a598, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cover_roof_001Mat
+    second: {fileID: 2100000, guid: 6de47d204cbfa7d499befbbd01f56e71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cover_sides_001Mat
+    second: {fileID: 2100000, guid: ecf13136c96738348ae3deb975da1f55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_frameMat
+    second: {fileID: 2100000, guid: 865383294ede9254bb51dc9275a50171, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_frame_001Mat
+    second: {fileID: 2100000, guid: b06391e3ede0da2408e8a0f988d75ff0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_frame_002Mat
+    second: {fileID: 2100000, guid: 024371db47818174481c46fdf0cfd8a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_frame_003Mat
+    second: {fileID: 2100000, guid: ce83dc0ab2c337e4db3a4dd88b7933ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_frame_004Mat
+    second: {fileID: 2100000, guid: aa5bc5dc924f26d44ab426af6d320d62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_frame_005Mat
+    second: {fileID: 2100000, guid: 540e0300076bb4a41ae37e7b135e929b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_frame_006Mat
+    second: {fileID: 2100000, guid: 2b729efa1bbd5dd4790f36ed33e0e053, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_frame_007Mat
+    second: {fileID: 2100000, guid: 983f38f9f235268438ab35d6d1153973, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_frame_008Mat
+    second: {fileID: 2100000, guid: 9883ab7c06c165f45872097bafba7284, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_frame_009Mat
+    second: {fileID: 2100000, guid: 5ecc3b453ceb149428fc49eb1282ee52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_frame_010Mat
+    second: {fileID: 2100000, guid: 63a039383a7963146b096404e939c092, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_frame_011Mat
+    second: {fileID: 2100000, guid: 2e6ae37e4a4edf440952eb2d34d3d221, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_frame_012Mat
+    second: {fileID: 2100000, guid: ed4cf11f7f4f71442ad15d961866bd28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_frame_013Mat
+    second: {fileID: 2100000, guid: 3e9db9427fa971649b30b5cc40ffd6a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_garageMat
+    second: {fileID: 2100000, guid: 0da7f542e2903ac46a85a28d0844f973, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_wingMat
+    second: {fileID: 2100000, guid: d047f519f64e80945aec6dcb835e2517, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_wing_001Mat
+    second: {fileID: 2100000, guid: 02bd0d04898093c4188b6de4f3b2cacd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_wing_002Mat
+    second: {fileID: 2100000, guid: f886997a61a5a134daf2a8a44ed0cf18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_wing_003Mat
+    second: {fileID: 2100000, guid: 802b320ce20f36f44b72b65ea4656f20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_wing_004Mat
+    second: {fileID: 2100000, guid: d6d2fd59164d3f645a44d016a518856c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_wing_005Mat
+    second: {fileID: 2100000, guid: f83011c03db93f34290b4985aa1e5555, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_wing_006Mat
+    second: {fileID: 2100000, guid: 1c2442b78c1f7954c91deaa3ddc5754f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_wing_007Mat
+    second: {fileID: 2100000, guid: 1b0a622a644dee74985495008a472c21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_wing_008Mat
+    second: {fileID: 2100000, guid: aa68bcd6e85c3ce4895e93870db0703a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_wing_009Mat
+    second: {fileID: 2100000, guid: 1edde1c2b6f17694cb7e7d3f2b2b2674, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_wing_010Mat
+    second: {fileID: 2100000, guid: 42f04773eaf8cb14ab3d56311429e49e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_wing_011Mat
+    second: {fileID: 2100000, guid: 5d13cc5381ac2c54fbd605c8d9e8d239, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_wing_012Mat
+    second: {fileID: 2100000, guid: 287b6bc52f5ba3b439c99ce73938850c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_wing_013Mat
+    second: {fileID: 2100000, guid: eec0942d09ea8b441af00b6111008d8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floorMat
+    second: {fileID: 2100000, guid: 545e425e40484c34ea8b9be7b3b59877, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_003Mat
+    second: {fileID: 2100000, guid: 9c2be50f32bf4b04ea35e2dfe02bd3a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_004Mat
+    second: {fileID: 2100000, guid: a6739dac9dd77fe44941daddae7ac603, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_005Mat
+    second: {fileID: 2100000, guid: 5bdcec92df2c6a148903dbf18e353117, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_006Mat
+    second: {fileID: 2100000, guid: a9bd28775f42a304d9ac33300da24839, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_007Mat
+    second: {fileID: 2100000, guid: 71bdf825e36ec95489c3b61276d244c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_008Mat
+    second: {fileID: 2100000, guid: 92cbb1c314e7f824a98767a08778e6eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_009Mat
+    second: {fileID: 2100000, guid: 4256c2e70b044214fad7c5e8876f392f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_010Mat
+    second: {fileID: 2100000, guid: 1df29e5c28387cc40aeac88dd8772d41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_011Mat
+    second: {fileID: 2100000, guid: 8b287ca393ca1924dbc5a4e78f645bce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_012Mat
+    second: {fileID: 2100000, guid: bba6df6cd1ca6444db2325ebd1acf969, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_013Mat
+    second: {fileID: 2100000, guid: ddd22ea235f077e489e96fc7801bf875, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_014Mat
+    second: {fileID: 2100000, guid: c96da92dccf6ae44bad22eeb01aa0f15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_015Mat
+    second: {fileID: 2100000, guid: 73dd5257f2ba7d040a9209592741d868, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_016Mat
+    second: {fileID: 2100000, guid: ed8e4b9b6e90e9f4a878570b0478d0eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_017Mat
+    second: {fileID: 2100000, guid: e3276e650f1de2a47a3453326904d6f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_018Mat
+    second: {fileID: 2100000, guid: eaaa2f38752ca6e4283decd5497915dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: flower_potMat
+    second: {fileID: 2100000, guid: bf39472c835cac8408dc3f00491dfecf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grass_platformMat
+    second: {fileID: 2100000, guid: 711c7b47168b98f47bb753fa2fc9793f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ground_around_houseMat
+    second: {fileID: 2100000, guid: 2548abe5db70d6d409cc46011c6e1d5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gutter_001Mat
+    second: {fileID: 2100000, guid: 20bea298936028542bef654ea26f05d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roofMat
+    second: {fileID: 2100000, guid: 54d3515bb179a664089095585788e5d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_001Mat
+    second: {fileID: 2100000, guid: 5727ba12a1ece024bae79a89db78f430, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stairs_000Mat
+    second: {fileID: 2100000, guid: 7682f0c520c8d5f41bd0c5e2260cf234, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stairs_002Mat
+    second: {fileID: 2100000, guid: 918b1ea540b128241a3ab9414a140f28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: terraceMat
+    second: {fileID: 2100000, guid: bcff92e9f9df9e7429a7b5ea0385f8fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall_exteriorMat
+    second: {fileID: 2100000, guid: 00e3c6a2d6af845429e343db0cb58a5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wallsMat
+    second: {fileID: 2100000, guid: 507e48cf17913954ab1c91425a48ecb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: walls_001Mat
+    second: {fileID: 2100000, guid: 0f6c11d02b7bf51469399df5204c4e34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: walls_002Mat
+    second: {fileID: 2100000, guid: 308b49fc5a34d0047ad5fea7dee8f760, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: walls_003Mat
+    second: {fileID: 2100000, guid: db473ad9ac8957644aedbbfbe6e5208f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_011Mat
+    second: {fileID: 2100000, guid: d2ed49c26ffc6884f94a622e42575d6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_roofMat
+    second: {fileID: 2100000, guid: 37a45da6f781fd14dad3ea651e2f5e0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_ballsMat
+    second: {fileID: 2100000, guid: 6e4ed7e0e85fdd84498e6b2354a254d4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
