@@ -20,10 +20,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4235246595046010}
   - component: {fileID: 33400470561211170}
-  - component: {fileID: 136631784213039732}
   - component: {fileID: 23840084728966702}
   - component: {fileID: 54849938941836994}
   - component: {fileID: 114543332677065590}
+  - component: {fileID: 65755400380647796}
   m_Layer: 0
   m_Name: projectile_laser_object
   m_TagString: Untagged
@@ -100,6 +100,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!65 &65755400380647796
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1930957494657550}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114543332677065590
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -111,17 +123,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e28bc005f0e407d4c93523eda9f16948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
---- !u!136 &136631784213039732
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1930957494657550}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.1316762
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.0000027334354, y: 0, z: 0}
+  speed: 7
+  lifeTime: 30

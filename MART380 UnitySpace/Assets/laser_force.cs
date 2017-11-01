@@ -5,28 +5,34 @@ using UnityEngine;
 public class laser_force : MonoBehaviour {
 
     public float speed;
-    private float lifeTime;
+    public float lifeTime;
 
     // Use this for initialization
     void Start () {
-        lifeTime = 0;
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if (lifeTime > 30)
-            Destroy(gameObject);
-        else
-            lifeTime++;
-
-        transform.Translate(Vector3.forward * Time.deltaTime * speed);
 		
 	}
 
+    public void FixedUpdate()
+    {
+        if (lifeTime == 0)
+        {
+            Destroy(gameObject);
+        }
+        else
+            lifeTime--;
+
+        transform.Translate(Vector3.forward * Time.deltaTime * speed);
+
+    }
+
     private void OnTriggerEnter(Collider target)
     {
-        if (target.gameObject.name.Contains("Target"))
+        if (target.gameObject.tag == "Enemy")
         {
             Destroy(target.gameObject);
             Destroy(gameObject);
