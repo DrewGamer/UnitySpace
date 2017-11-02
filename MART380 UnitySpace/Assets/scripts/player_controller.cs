@@ -74,10 +74,11 @@ public class player_controller : MonoBehaviour {
     {
         if (target.gameObject.tag == "Enemy")
         {
-
-            GameObject playerShip = Instantiate(ship, new Vector3(0, 0, -11), transform.rotation);
+            GameController_Script.DecreaseLives();
+            //Instantiate(ship, new Vector3(0, 0, -11), transform.rotation);
             Destroy(target.gameObject);
             Destroy(gameObject);
+            Debug.Log(GameController_Script.GetLives());
         }
     }
 }

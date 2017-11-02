@@ -26,11 +26,9 @@ public class fire_controller : MonoBehaviour {
             Quaternion spawnRot = transform.rotation;
             spawnRot.z = spawnRot.z + Random.Range(-spread, spread);
             Vector3 spawnLoc = transform.position;
-            spawnLoc.z = -11;
+            spawnLoc.z = -11.0f;
 
-            Debug.Log(spawnLoc);
-
-            GameObject laser = Instantiate(projectile, spawnLoc, spawnRot);
+            Instantiate(projectile, spawnLoc, spawnRot);
             gameObject.GetComponent<AudioSource>().Play();
             timer = 0;
         }
